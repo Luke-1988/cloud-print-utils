@@ -7,6 +7,9 @@ cd /tmp
 yumdownloader \
     dejavu-sans-fonts \
     dejavu-fonts-common \
+    liberation-sans-fonts \
+    wqy-microhei-fonts \
+    lohit-devanagari-fonts \
     xorg-x11-fonts-Type1 $@
 
 rpmdev-extract *rpm
